@@ -15,4 +15,4 @@ Route::get('think', function () {
 });
 
 Route::get('hello/:name', 'index/hello');
-Route::get('test','index/test');
+Route::post('question','index/question');
