@@ -23,7 +23,7 @@ class Index extends BaseController
      */
     public function question(){
         $question = $this->request->post('question','');
-        $open_ai_key = "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";//你的key
+        $open_ai_key = "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";//你的key
         $open_ai = new OpenAi($open_ai_key);
         $open_ai->setProxy("http://127.0.0.1:7890");//本地调试代理
         // 返回文本
